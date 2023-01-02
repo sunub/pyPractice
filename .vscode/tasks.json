@@ -1,0 +1,20 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "conda run env",
+      "type": "shell",
+      "command": "activate sunub_env",
+      "windows": {
+        "args": ["/K", "C:\\Users\\bsc56\\anaconda3\\Scripts\\activate.bat"]
+      },
+      "problemMatcher": [],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
+  ]
+}
